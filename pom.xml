@@ -13,8 +13,8 @@
     </parent>
 
     <properties>
-        <java.version>11</java.version>
-    </properties>
+		<java.version>11</java.version>
+	</properties>
 
     <dependencies>
         <dependency>
@@ -39,7 +39,11 @@
             <plugin>
 			    <groupId>org.apache.maven.plugins</groupId>
 			    <artifactId>maven-war-plugin</artifactId>
-			    <version>3.3.1</version>
+			    <version>3.8.0</version>
+				<configuration>
+					<source>11</source>
+					<target>11</target>
+				</configuration>
 			</plugin>
         </plugins>
     </build>
