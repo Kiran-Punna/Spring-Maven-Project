@@ -12,9 +12,9 @@
         <version>2.1.0.RELEASE</version>
     </parent>
 
-    <properties>
+   <!--  <properties>
         <java.version>1.8</java.version>
-    </properties>
+    </properties> -->
 
     <dependencies>
         <dependency>
